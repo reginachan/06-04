@@ -46,6 +46,7 @@ int main(int argc, const char * argv[]) {
                 // an empty string, I can add values to it and this happens with presents[i] stringByAppendingString:
                 // So when i = 1, it accesses Two Turtle Doves. Since it has stringByAppendString attached to it
                 // this means that the current presents[i] will be added to string list All.
+                // Hello!
                 listAll = [presents[i] stringByAppendingString:listAll];
                 NSLog(@"\n \n On the %@ day of Christmas, my true love game to me \n %@And a Patridge in a Pear Tree. \n", [days objectAtIndex:i], listAll);
             }
